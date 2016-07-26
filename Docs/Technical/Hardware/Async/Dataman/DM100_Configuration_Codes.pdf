@@ -1,0 +1,738 @@
+
+
+<!DOCTYPE HTML>
+<head id="ctl00_Head1"><link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=1336402157" />
+<script type="text/javascript">
+    var WRInitTime = (new Date()).getTime();
+</script>
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '1258492888']);
+    _elqQ.push(['elqTrackPageView']);
+
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img03.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load);
+    })();
+</script>
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2591982-6']);
+    _gaq.push(['_setDomainName', 'none']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_setAccount', 'UA-1323229-6']);
+    _gaq.push(['_setCustomVar', 5, 'Region', 'Europe']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script type="text/javascript">
+    var DemandbaseAnalytics = DemandbaseAnalytics || {};
+    DemandbaseAnalytics.demandbaseGA = {
+        key: '273e128ce58655d439805774d2a95a0012214cc5',
+        fields: ["company_name", "industry", "sub_industry", "audience"],
+        version: '3.0',
+        dbDataSet: null,
+        track: function (data) {
+            try {
+                data = DemandbaseAnalytics.demandbaseGA._flatA(data);
+                DemandbaseAnalytics.demandbaseGA.dbDataSet = data;
+                for (field in DemandbaseAnalytics.demandbaseGA.fields) {
+                    var lbl = DemandbaseAnalytics.demandbaseGA.fields[field];
+                    var val = data[DemandbaseAnalytics.demandbaseGA.fields[field]] || '(not set)';
+                    DemandbaseAnalytics.demandbaseGA._var((parseInt(field) + 1), lbl, val, 1);
+                    DemandbaseAnalytics.demandbaseGA._logE(lbl + ' : ' + val);
+                }
+                if (data) {
+
+                }
+                DemandbaseAnalytics.demandbaseGA._event();
+            } catch (e) { DemandbaseAnalytics.demandbaseGA._logE('Integration Error: ' + e) };
+        },
+        load: function () {
+            try {
+                if (!window._gaq) window._gaq = [];
+                var db = document.createElement('script'); db.type = 'text/javascript'; db.async = true;
+                db.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'api.demandbase.com/api/v2/ip.json?key=' + this.key + '&callback=DemandbaseAnalytics.demandbaseGA.track&page=' + document.URL + '&referrer=' + document.referrer + '&page_title=' + document.title;
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(db, s);
+                _gaq.push(['_addDevId', 'NE7T9']);
+                DemandbaseAnalytics.demandbaseGA._logE('Loaded Script ' + db.src);
+            } catch (e) { this._logE('Script Error: ' + e) };
+        },
+        _flatA: function (a) {
+            for (d in a) {
+                if (typeof a[d] == 'object') {
+                    for (cd in a[d]) { a[d + '_' + cd] = a[d][cd] };
+                    delete a[d];
+                }
+            };
+            return a;
+        },
+        _logE: function (m) { if (window['console'] !== 'undefined' && typeof (console) !== 'undefined') { console.log('DB GA ' + m); } },
+        _p: function (t, v1, v2, v3, v4, v5) { window._gaq.push([t, v1, v2, v3, v4, v5]); },
+        _var: function (i, k, v, s) { this._p('_setCustomVar', i, k, v, s); },
+        _event: function () { this._p('_trackEvent', 'Demandbase', 'API Resolution', 'IP API', 0, 1); }
+    };
+    DemandbaseAnalytics.demandbaseGA.load();
+</script>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /><link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" /><link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" /><link rel="stylesheet" href="../../css/style.css" type="text/css" media="all" /><link rel="stylesheet" href="../../css/pages.css" type="text/css" media="all" />
+
+    <script type="text/javascript" src="/support/layerSwitch.js"></script>
+    <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/js/global.js"></script>
+
+    
+<!-- Secure.master -->
+<link href="../../App_Themes/simple/Ajax.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Calendar.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/ColorPicker.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/ComboBox.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Dock.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Editor.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/FormDecorator.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Grid.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Input.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/ListBox.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Menu.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/PanelBar.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Rotator.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Scheduler.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Slider.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Splitter.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/TabStrip.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/ToolBar.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/ToolTip.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/TreeView.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Upload.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Widgets.Simple.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/simple/Window.Simple.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    
+    <form method="post" action="/Support/Downloads/Download.aspx?d=892&amp;l=1034" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="EktronClientManager" id="EktronClientManager" value="1336402157" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWBgIBD2QWAgIED2QWAmYPFgIeB1Zpc2libGVnZAIFEGRkFhICAQ9kFgICAQ8WAh4EVGV4dGVkAgMPZBYCAgEPZBYCZg8WAh8BBQxDb250w6FjdGVub3NkAgUPZBYCZg9kFgJmDxAPFgYeDkRhdGFWYWx1ZUZpZWxkBQNLZXkeDURhdGFUZXh0RmllbGQFBVZhbHVlHgtfIURhdGFCb3VuZGdkEBUND0Nob29zZSBMYW5ndWFnZQdEZXV0c2NoDkVuZ2xpc2ggKFUuSy4pDkVuZ2xpc2ggKFUuUy4pCEVzcGHDsW9sCUZyYW7Dp2FpcwhJdGFsaWFubxNQb3J0dWd1ZXNlIChCcmFzaWwpHdGA0YPRgdGB0LrQuNC5ICjQoNC+0YHRgdC40Y8pCe2VnOq1reyWtAnml6XmnKzoqp4d5rGJ6K+tKOS4reWNjuS6uuawkeWFseWSjOWbvSkO5ryi6KqeKOiHuueBoykVDQEwBDEwMzEEMjA1NwQxMDMzBDEwMzQEMTAzNgQxMDQwBDEwNDYEMTA0OQQxMDQyBDEwNDEEMjA1MgQxMDI4FCsDDWdnZ2dnZ2dnZ2dnZ2cWAWZkAgcPZBYCAgEPFgIfAQUSRXNwYcOxYSB8IEVzcGHDsW9sZAINDxYCHgVzdHlsZQVQYmFja2dyb3VuZC1pbWFnZTp1cmwoL2Fzc2V0cy8wLzE1LzI1OTcvOGM3NWVjOTAtM2NmYy00NjVmLTk3MzQtYzZmOTYwOWRiOTM2LmpwZykWAgIBDxYCHgNzcmMFPy9hc3NldHMvMC8xNS8yNTk3LzI2MzIvZWNlZTA0NGUtOGM1Yi00YjA4LTk5NWMtNWNhMDEyYjk0YzVhLnBuZ2QCDw8PFgIfAGdkFgYCAQ9kFgQCAQ8PFgQfAQUPSW5pY2lhciBzZXNpw7NuHgtOYXZpZ2F0ZVVybAUaL3N1cHBvcnQvc2VjdXJlL2xvZ2luLmFzcHhkZAIDDw8WBB8BBRFSZWdpc3RyYXJzZSBhaG9yYR8HBR0vc3VwcG9ydC9zZWN1cmUvcmVnaXN0ZXIuYXNweGRkAgMPDxYCHwBoZBYGAgMPDxYCHwEFDUVkaXRhciBwZXJmaWxkZAIFDw8WAh8BBRNDYW1iaWFyIGNvbnRyYXNlw7FhZGQCCQ8PFgIfAQUMTXkgRG93bmxvYWRzZGQCBQ8PFgIfAGhkFgICBQ8PFgIfAQUMTXkgRG93bmxvYWRzZGQCEQ8PFgIfAGhkFgICAQ8WAh8BBSg8bGk+PGEgaHJlZj0iLyI+SW5pY2lvPC9hPjwvbGk+PGxpPjwvbGk+ZAITDw8WAh8AZ2RkAhkPZBYEAgEPZBYMZg8PFgYeBVRpdGxlBRtDb250ZW5pZG8gZGUgcGllIGRlIHDDoWdpbmEeE0NhdGFsb2dJY29uSW1hZ2VVcmwFLi9Xb3JrQXJlYS9pbWFnZXMvYXBwbGljYXRpb24vaWNvbl9kb2N1bWVudC5naWYeEVRpdGxlSWNvbkltYWdlVXJsZWRkAgEPFgIfAQUTRGVzY2FyZ2FzIHTDqWNuaWNhc2QCAg8WAh8BBR1JbmljaW8gZGUgc2VzacOzbiBwYXJhIHNvY2lvc2QCAw8WAh8BBQ1JbnZlcnNpb25pc3RhZAIEDxYCHwEFClByaXZhY2lkYWRkAgUPFgIfAQUNQ2FtYmlhciBwYcOtc2QCAw8WAh8AaGQCBw9kFgJmDxYCHwBnZGQ5K9AEp4FsTBg419A8JSltmLRW4Q==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+    <div id="PBwrapper">   
+        <div class="site_container sub press">
+            <div class="header_container">
+                <div class="header">
+                    <div class="logo"><a href="/" rel="nofollow"><img src="/gfx/site/pic-global-header-logo-cognex.png" alt="Cognex"/></a></div>
+                    <div class="headernav">
+                        <div class="headernav_contact_container">
+                            <ul class="headernav_contact">
+                                
+                                
+                                    <li class="headernav_contact_us"><a href="../../Home/ContactUs.aspx" id="ctl00_A1">Contáctenos</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="headernav_country">
+                            
+                            
+		                        <a href="/Map.aspx">España | Español</a>
+		                    
+		                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topnav_container">
+            <div class="topnav">
+                
+
+<script type="text/javascript">
+    var timerId = 0;
+    var timerId0 = 0;
+    var timerId1 = 0;
+
+    $(function () {
+        /**
+        * the menu
+        */
+        var $menu = $('#cmm_menu');
+
+        /**
+        * for each list element,
+        * we show the submenu when hovering and
+        * expand the span element (title) to 510px
+        */
+        $menu.children('li').each(function () {
+            var $this = $(this);
+            var $span = $this.children('span');
+            $span.data('width', $span.width());
+
+            $this.bind('mouseenter', function () {
+                clearTimeout(timerId);
+                clearTimeout(timerId0);
+
+                if ($this.find('.cmm_submenu_0, .cmm_submenu_1, .cmm_submenu_2, .cmm_submenu_3, .cmm_submenu_4, .cmm_submenu_5, .cmm_submenu_6, .cmm_submenu_7').css("display") == "none") {
+                    timerId = setTimeout(function () {
+                        $menu.find('.cmm_submenu_0, .cmm_submenu_1, .cmm_submenu_2, .cmm_submenu_3, .cmm_submenu_4, .cmm_submenu_5, .cmm_submenu_6, .cmm_submenu_7').slideUp('fast');
+                    }, 275);
+                    timerId0 = setTimeout(function () {
+                        $span.animate({ 'width': $span.data('width') + 'px' }, 25, function () {
+                            $this.find('.cmm_submenu_0, .cmm_submenu_1, .cmm_submenu_2, .cmm_submenu_3, .cmm_submenu_4, .cmm_submenu_5, .cmm_submenu_6, .cmm_submenu_7').slideDown();
+                        });
+                    }, 350);
+                }
+            }).bind('mouseleave', function () {
+                clearTimeout(timerId);
+                clearTimeout(timerId0);
+
+                timerId = setTimeout(function () {
+                    $menu.find('.cmm_submenu_0, .cmm_submenu_1, .cmm_submenu_2, .cmm_submenu_3, .cmm_submenu_4, .cmm_submenu_5, .cmm_submenu_6, .cmm_submenu_7').slideUp('fast');
+                }, 300);
+            });
+        });
+    });
+
+        /*
+        $menu.children('li').each(function(){
+        var $this = $(this);
+        var $span = $this.children('span');
+        $span.data('width',$span.width());
+					
+        $this.bind('mouseenter',function(){
+        $menu.find('.cmm_submenu_0, .cmm_submenu_1, .cmm_submenu_2, .cmm_submenu_3, .cmm_submenu_4, .cmm_submenu_5, .cmm_submenu_6, .cmm_submenu_7').stop(true,true).hide();
+        $span.stop().animate({'width':$span.data('width')+'px'},25,function(){
+        $this.find('.cmm_submenu_0, .cmm_submenu_1, .cmm_submenu_2, .cmm_submenu_3, .cmm_submenu_4, .cmm_submenu_5, .cmm_submenu_6, .cmm_submenu_7').slideDown(25);
+							
+        });
+        }).bind('mouseleave',function(){
+        $this.find('.cmm_submenu_0, .cmm_submenu_1, .cmm_submenu_2, .cmm_submenu_3, .cmm_submenu_4, .cmm_submenu_5, .cmm_submenu_6, .cmm_submenu_7').slideUp(25);
+        $span.stop().animate({'width':$span.data('width')+'px'},25);						
+        });
+        });*/
+</script>
+
+		<div class="box">
+            <ul id="cmm_menu" class="cmm_menu">
+    
+			<li class="">
+                <span><a href="/products.aspx?langtype=1034&locale=ar">Productos</a></span>
+                <div class="cmm_submenu_0">
+                <div id="ctl00_Megamenu1_ParentNav_ctl01_cbPanel">
+	<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/products/machine-vision/">Visión artificial</a></li>
+<li><a href="/products/machine-vision/in-sight-vision-systems/">Sistemas de visión In-Sight</a></li>
+<li><a href="/products/machine-vision/checker-industrial-vision-sensor/">Sensores de visión Checker</a></li>
+<li><a href="/products/machine-vision/cognex-designer-vision-software/">Software de visión Cognex Designer</a></li>
+<li><a href="/products/machine-vision/visionpro-vision-software/">Software de visión VisionPro</a></li>
+<li><a href="/products/machine-vision/ds-1000-displacement-sensor-laser-profiler/">Perfiladores láser DS1000</a></li>
+<br /><li id="cmm_heading_main"><a href="/image-engines.aspx">Productos para OEM</a></li>
+<li><a href="/products/machine-vision/advantage-100-series/">Visión Advantage y sistemas de identificación</a></li>
+<li><a href="/products/machine-vision/ae2-advantage-vision-engines/">Motores de imagen AE2</a></li>
+<li><a href="/products/machine-vision/cognex-vision-library/">Cognex Vision Library (CVL)</a></li>
+</ul>
+<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/products/barcode-readers-scanners/">Basados en imágenes</a></li>
+<li id="cmm_heading_main"><a href="/products/barcode-readers-scanners/fixed-mount-barcode-readers/">Lectores fijos de códigos de barras</a></li>
+<li><a href="/products/barcode-readers-scanners/dataman-50-60-compact-barcode-reader/">DataMan series 50/60</a></li>
+<li><a href="/products/barcode-readers-scanners/dataman-100-200-barcode-decoder/">DataMan series 100/200</a></li>
+<li><a href="/products/barcode-readers-scanners/dataman-300-fixed-mount-DPM-barcode-reader/">DataMan® Serie 300</a></li>
+<li><a href="/products/barcode-readers-scanners/In-Sight-ID-barcode-readers/features/">In-Sight Serie ID</a></li>
+<br /><li id="cmm_heading_main"><a href="/products/barcode-reader-scanner/handheld-barcode-reader/">Lectores portátiles de códigos de barras</a></li>
+<li><a href="/products/industrial-id/handheld-barcode-readers/dataman-8600-series/features/">DataMan® Serie 8600</a></li>
+<li><a href="/products/barcode-readers-scanners/dataman-8050-industrial-barcode-reader/">Serie DataMan 8050 </a></li>
+<li><a href="/products/barcode-readers-scanners/dataman-700-ESD-safe-barcode-reader/">DataMan® Serie 700</a></li>
+<br /><li id="cmm_heading_main"><a href="/products/barcode-readers-scanners/dataman-9500-handheld-barcode-reader-mobile-computer/">Computadoras portátiles</a></li>
+<br /><li id="cmm_heading_main"><a href="/products/barcode-readers-scanners/dataman-barcode-verifiers/">Verificadores de códigos de barras</a></li>
+</ul>
+<ul>
+<li id="cmm_heading_nolink" class="cmm_heading"><a>Soluciones específicas para la industria</a></li>
+<li><a href="/data-verification-systems-in-sight.aspx">Software In-Sight Track &amp; Trace</a></li>
+<li><a href="/OmniView-Cylindrical-Product-Inspection-System.aspx">Inspección cilíndrica de OmniView</a></li>
+<li><a href="/wafer-identifcation.aspx">Identificación de “wafer”</a></li>
+<li><a href="/semiconductor-software.aspx">Software para semiconductores</a></li>
+<li><a href="/logistics-barcode-readers.aspx">Lectores de códigos de barras para logística</a></li>
+<li><a href="/Cognex-Explorer-Real-Time-Monitoring.aspx">Monitoreo en tiempo real de Cognex Explorer</a></li>
+<li><a href="/pv-solar-id-reader.aspx">Lectores de códigos de barras en celdas solares</a></li>
+<li><a href="/tire-barcode-reading.aspx">Soluciones de neumáticos Cognex</a></li>
+<br /><li id="cmm_heading_main"><a href="/sisd/">Visión superficial</a></li>
+<li><a href="/web-surface-inspection-overview.aspx">Sistemas SmartView</a></li>
+<li><a href="/smartadvisor-web-monitoring-technology.aspx">Sistemas SmartAdvisor</a></li>
+<li><a href="/software-surface-inspection.aspx">Actualizaciones y mejoras</a></li>
+<li><a href="/ExploreLearn/TrainingPrograms/SmartViewTrainingList.aspx">Capacitación en visión de superficies</a></li>
+</ul>
+</div>
+                <div id="ctl00_Megamenu1_ParentNav_ctl01_cbCTA">
+	<div style="text-align: center;"><a class="cmm_subfoot" href="/products/industrial-id/handheld-barcode-readers/dataman-8600-series/features?cm_campid=34263114-9637-E411-94A3-5EF3FCDAF1B7"><img src="/uploadedImages/Home/Cognex_Mega_Menu/CTA-8600.jpg" /></a></div>
+</div>
+                </div>
+		    </li>
+    
+			<li class="">
+                <span><a href="/manufacturing-industry-sectors.aspx?langtype=1034&locale=ar">Industrias</a></span>
+                <div class="cmm_submenu_1">
+                <div id="ctl00_Megamenu1_ParentNav_ctl02_cbPanel">
+	<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a href="/automation-equipment.aspx">Equipos de automatización</a></li>
+<li><a href="/OEM-Machine-Builders-and-Equipment-Suppliers.aspx">Constructores de equipos y proveedores</a></li>
+<li><a href="/Robotic-System-Integrators.aspx">Integradores de sistemas robóticos</a></li>
+<li><a href="/Systems-Integrators-Line-Builders.aspx">Integradores y constructores de líneas</a></li>
+<br /><li id="cmm_heading_main"><a href="/Vision-and-ID-Solutions-for-the-Automotive-Industry.aspx">Automotriz</a></li>
+<li><a href="/Quality-and-Compliance.aspx">Calidad y cumplimiento</a></li>
+<li><a href="/Manufacturing-Cost-Reduction-and-Process-Optimization.aspx">Reducción de costos y optimización</a></li>
+<li><a href="/Barcode-Reading-Videos.aspx">Video demo automotriz</a></li>
+<br /><li id="cmm_heading_main"><a href="/consumer-products.aspx">Productos de consumo</a></li>
+<li><a href="/consumer-product-packaging-equipment.aspx">Automatización de equipos</a></li>
+<li><a href="/reduce-manufacturing-waste.aspx">Reducción de desechos</a></li>
+<li><a href="/consumer-product-traceability.aspx">Trazabilidad y control de procesos</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a href="/Electronics-Manufacturing.aspx">Productos electrónicos</a></li>
+<li><a href="/OEM-Capital-Equipment-Manufacturers.aspx">Equipos de bienes capitales para OEM</a></li>
+<li><a href="/Finished-Electronic-Device-Manufacturers.aspx">Fabricantes de productos terminados</a></li>
+<li><a href="/Electronics-Traceability-Brand-Protection-and-Process-Control.aspx">Trazabilidad y control de proceso</a></li>
+<br /><li id="cmm_heading_main"><a href="/food-and-beverage.aspx">Alimentos y bebidas</a></li>
+<li><a href="/allergen-management.aspx">Gestión de alérgenos</a></li>
+<li><a href="/food-traceability.aspx">Trazabilidad y cumplimiento</a></li>
+<li><a href="/product-quality-assembly-verification-package-inspection.aspx">Calidad e inspección</a></li>
+<li><a href="/food-barcode-reading-demos.aspx">Video de demostración para alimentos y bebidas</a></li>
+<br /><li id="cmm_heading_main"><a href="/Logistics-barcode-scanners.aspx">Logística</a></li>
+<li><a href="/Improve-read-rates.aspx">Mejora de la velocidad de lectura</a></li>
+<li><a href="/logistics-automation.aspx">Aplicaciones de logística</a></li>
+<li><a href="/logistics-barcode-reading-demos.aspx">Videos de demostración de logística</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a href="/pharmaceuticals-ID-inspection-solutions.aspx ">Farmacéutica/Médica</a></li>
+<li><a href="/brand-protection-package-inspection.aspx">Inspección de empaques</a></li>
+<li><a href="/pharmaceuticals-inspection.aspx">Protección de productos farmacéuticos</a></li>
+<li><a href="/medical-device-inspection.aspx">Dispositivos médicos</a></li>
+<li><a href="/clinical-diagnostics.aspx">Diagnósticos clínicos</a></li>
+<br /><li id="cmm_heading_main"><a href="/cognex-vision-wafer-thinfilm.aspx">Semiconductores</a></li>
+<li><a href="/wafer-inspection.aspx">Inspección de "wafers"</a></li>
+<li><a href="/die-quality.aspx">Calidad </a></li>
+<li><a href="/mounting-traceability.aspx">Montaje y trazabilidad</a></li>
+<br /><li id="cmm_heading_main"><a href="/solar-cells-inspection-systems.aspx">Celdas solares</a></li>
+<li><a href="/wafer-inspection.aspx">DIficultades en los "wafers"</a></li>
+<li><a href="/cell-fabrication-cell-sorting.aspx">Fabricación de celdas</a></li>
+<li><a href="/solar-module-assembly-inspection.aspx">Montaje y trazabilidad de módulos</a></li>
+<li><a href="/solar-toolbox.aspx">Herramientas</a></li>
+</ul>
+</div>
+                <div id="ctl00_Megamenu1_ParentNav_ctl02_cbCTA">
+	<div style="text-align: center;"><a class="cmm_subfoot" href="/3D-displacement-sensor-laser-profiler.aspx"><img src="/uploadedImages/Home/Cognex_Mega_Menu/MenuBanner_3D_ES.jpg?n=2041" /></a></div>
+</div>
+                </div>
+		    </li>
+    
+			<li class="">
+                <span><a href="/machine-vision-applications.aspx?langtype=1034&locale=ar">Aplicaciones</a></span>
+                <div class="cmm_submenu_2">
+                <div id="ctl00_Megamenu1_ParentNav_ctl03_cbPanel">
+	<ul>
+<li class="cmm_heading" id="cmm_heading_nolink"><a>Aplicaciones para la industria</a></li>
+<li><a href="/customer-success-stories/automotive/">Automotriz</a></li>
+<li><a href="/customer-success-stories/consumerproducts/">Productos de consumo</a></li>
+<li><a href="/customer-success-stories/electronics/">Electrónica</a></li>
+<li><a href="/customer-success-stories/foodbeverage/">Alimentos y bebidas</a></li>
+<li><a href="/customer-success-stories/logistics/">Logística</a></li>
+<li><a href="/customer-success-stories/medical/">Dispositivos médicos</a></li>
+<li><a href="/customer-success-stories/pharmaceutical/">Productos farmacéuticos</a></li>
+<li><a href="/customer-success-stories/packaging/">Empaque</a></li>
+<li><a href="/customer-success-stories/solar/">Solar</a></li>
+<li><a href="/customer-success-stories/webandsurface/">Inspección de tejidos y superficies</a></li>
+<li><a href="/customer-success-stories/other/">Otras industrias</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_nolink"><a>Tipos de aplicaciones</a></li>
+<li><a href="/customer-success-stories/eliminatedefects/">Eliminar defectos</a></li>
+<li><a href="/customer-success-stories/verifyassembly/">Verificar montajes</a></li>
+<li><a href="/customer-success-stories/automateproduction/">Automatizar la producción</a></li>
+<li><a href="/customer-success-stories/identification/">Identificación</a></li>
+<br /><li id="cmm_heading_nolink"><a>Retorno de la inversión </a></li>
+<li><a href="/Return-on-Investment.aspx">ROI (Retorno de la inversión): Eliminar defectos</a></li>
+<li><a href="/verify-assembly.aspx">ROI (Retorno de la inversión): Verificar montajes </a></li>
+<li><a href="/automate-production.aspx">ROI (Retorno de la inversión): Automatizar la producción </a></li>
+<li><a href="/track-parts.aspx">ROI (Retorno de la inversión): Seguimiento de las piezas </a></li>
+<li><a href="/roi-web-surface-inspection.aspx">ROI (Retorno de la inversión): Inspección de tejidos y superficies</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a href="/vision-inspection-solutions.aspx">Productos en acción</a></li>
+<li><a href="/ExploreLearn/Products/?id=6134">Botellas</a></li>
+<li><a href="/ExploreLearn/Products/?id=6142">Teléfonos celulares</a></li>
+<li><a href="/ExploreLearn/Products/?id=6144">Computadoras</a></li>
+<li><a href="/ExploreLearn/Products/?id=6138">Frenos</a></li>
+<li><a href="/ExploreLearn/Products/?id=6152">Dispositivos médicos</a></li>
+<li><a href="/ExploreLearn/Products/?id=6148">Productos farmacéuticos</a></li>
+<li><a href="/ExploreLearn/Products/?id=6140">Navajas</a></li>
+<li><a href="/ExploreLearn/Products/?id=6146">Alimentos precocinados</a></li>
+<li><a href="/ExploreLearn/Products/?id=6150">Celdas solares</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_nolink"><a>Testimonios</a></li>
+<li><a href="/ApplicationsIndustries/Testimonials/?id=450">Retorno de la inversión</a></li>
+<li><a href="/ApplicationsIndustries/Testimonials/?id=452">Facilidad de uso</a></li>
+<li><a href="/ApplicationsIndustries/Testimonials/?id=454">Integración</a></li>
+<li><a href="/ApplicationsIndustries/Testimonials/?id=456">Asistencia</a></li>
+<li><a href="/ApplicationsIndustries/Testimonials/?id=462">Tecnología</a></li>
+<li><a href="/ApplicationsIndustries/Testimonials/?id=458">Valor</a></li>
+<li><a href="/ApplicationsIndustries/Testimonials/?id=460">Inspección de tejidos y superficies</a></li>
+</ul>
+</div>
+                <div id="ctl00_Megamenu1_ParentNav_ctl03_cbCTA">
+	<div style="text-align: center;"><a class="cmm_subfoot" href="/In-Sight-7000-smart-vision-system.aspx"><img src="/uploadedImages/Home/Cognex_Mega_Menu/MenuBanner_InSight_ES.jpg?n=3165" /></a></div>
+</div>
+                </div>
+		    </li>
+    
+			<li class="">
+                <span><a href="/support/?langtype=1034&locale=ar">Asistencia</a></span>
+                <div class="cmm_submenu_3">
+                <div id="ctl00_Megamenu1_ParentNav_ctl04_cbPanel">
+	<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/Support/InSight/">Asistencia de In-Sight</a></li>
+<li><a href="/Support/InSight/Software.aspx">Software y firmware</a></li>
+<li><a href="/Support/InSight/Documentation.aspx">Documentación</a></li>
+<li><a href="/Support/InSight/training.aspx">Material de capacitación</a></li>
+<br /><li id="cmm_heading_main"><a href="/Support/VisionPro/">Asistencia de VisionPro</a></li>
+<li><a href="/Support/VisionPro/Software.aspx">Software</a></li>
+<li><a href="/Support/VisionPro/Documentation.aspx">Documentación</a></li>
+<li><a href="/Support/VisionPro/training.aspx">Material de capacitación</a></li>
+</ul>
+<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/Support/DataMan/">Asistencia de DataMan</a></li>
+<li><a href="/Support/DataMan/Software.aspx">Software y firmware</a></li>
+<li><a href="/Support/DataMan/Documentation.aspx">Documentación</a></li>
+<li><a href="/Support/DataMan/training.aspx">Material de capacitación</a></li>
+<br /><li id="cmm_heading_main"><a href="/Support/Checker/">Asistencia de Checker</a></li>
+<li><a href="/Support/Checker/Software.aspx">Software y firmware</a></li>
+<li><a href="/Support/Checker/Documentation.aspx">Documentación</a></li>
+<li><a href="/Support/Checker/training.aspx">Material de capacitación</a></li>
+<br /><li id="cmm_heading_main"><a href="/support/cognex-designer/">Asistencia de Cognex Designer</a></li>
+<li><a href="/support/cognex-designer/training.aspx">Material de capacitación</a></li>
+</ul>
+<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/training.aspx">Capacitación de Cognex</a></li>
+<li><a href="/ExploreLearn/TrainingPrograms/TrainingList.aspx">Classroom Training</a></li>
+<li><a href="/on-demand-training.aspx">Capacitación en línea</a></li>
+<li><a href="/training-videos.aspx">Cursos</a></li>
+<li><a href="/ExploreLearn/TrainingPrograms/SmartViewTrainingList.aspx">Capacitación de SmartView</a></li>
+<br /><li id="cmm_heading_main"><a href="/Support/DS1000/">Asistencia de DS1000</a></li>
+<li><a href="/Support/DS1000/software.aspx">Software y firmware</a></li>
+<li><a href="/Support/DS1000/Documentation.aspx">Documentación</a></li>
+<li><a href="/support/ds1000/training.aspx">Material de capacitación</a></li>
+<br /><li id="cmm_heading_main"><a href="/SmartView-support.aspx">Asistencia de SmartView</a></li>
+</ul>
+<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/Support/Otros/">Asistencia de otros productos</a></li>
+<li><a href="/support/dvt/">Asistencia de DVT</a></li>
+<li><a href="/support/visionview/">Asistencia de VisionView</a></li>
+<li><a href="/support/cvl/">Asistencia de CVL</a></li>
+<li><a href="/support/smd4/">Asistencia de SMD4</a></li>
+<li><a href="/support/proofread/">Asistencia de ProofRead</a></li>
+<li><a href="/support/omi/">Asistencia de OMI</a></li>
+<li><a href="/support/omniview/">Asistencia de OmniView</a></li>
+<li><a href="/support/cognexexplorer/">Asistencia de Cognex Explorer</a></li>
+</ul>
+</div>
+                <div id="ctl00_Megamenu1_ParentNav_ctl04_cbCTA">
+	<div style="text-align: center;"><a class="cmm_subfoot" href="/training.aspx"><img src="/uploadedImages/Home/Cognex_Mega_Menu/MenuBanner_Training_ES.jpg" /></a></div>
+</div>
+                </div>
+		    </li>
+    
+			<li class="">
+                <span><a href="/howtobuy.aspx?langtype=1034&locale=ar">Cómo comprar</a></span>
+                <div class="cmm_submenu_4">
+                <div id="ctl00_Megamenu1_ParentNav_ctl05_cbPanel">
+	<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a href="/contact-sales.aspx?cm_campid=6EAA8922-E95D-E411-94A3-5EF3FCDAF1B7">Contacto de ventas</a></li>
+<li><a href="/contact-pricing.aspx?cm_campid=9DFA21A9-E95D-E411-94A3-5EF3FCDAF1B7">Cotización de productos</a></li>
+<li><a href="/contact-demo.aspx?cm_campid=0226ACF6-E95D-E411-94A3-5EF3FCDAF1B7">Solicitar una demostración de producto</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a>Evaluación de aplicaciones</a></li>
+<li><a href="/ExploreLearn/ContactUs/RequestMain.aspx?id=1872">Visión artificial</a></li>
+<li><a href="/ExploreLearn/idappeval/RequestMain.aspx">basados en imágenes</a></li>
+</ul>
+</div>
+                <div id="ctl00_Megamenu1_ParentNav_ctl05_cbCTA">
+	<div style="text-align: center;"><a class="cmm_subfoot" href="/compact-barcode-reader.aspx"><img src="/uploadedImages/Home/Cognex_Mega_Menu/MenuBanner_DataMan5060_ES.jpg?n=9534" /></a></div>
+</div>
+                </div>
+		    </li>
+    
+			<li class="">
+                <span><a href="/resources.aspx?langtype=1034&locale=ar">Recursos</a></span>
+                <div class="cmm_submenu_5">
+                <div id="ctl00_Megamenu1_ParentNav_ctl06_cbPanel">
+	<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a>Documentos y videos</a></li>
+<li><a href="/vision-inspection-solutions.aspx">Demostraciones de productos</a></li>
+<li><a href="/ExploreLearn/FindOutMore/WhitePapersArticles/WhitePapersAndArticles.aspx">Artículos y documentos oficiales</a></li>
+<li><a href="/ExploreLearn/FindOutMore/Webinars/OnDemandWebinars.aspx">Seminarios en línea a petición</a></li>
+<li><a href="/training-videos.aspx">Capacitación </a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a>Eventos</a></li>
+<li><a href="/machine-vision-seminars.aspx">Seminarios</a></li>
+<li><a href="/ExploreLearn/FindOutMore/Tradeshows/?id=88">Ferias comerciales</a></li>
+<li><a href="/training.aspx">Capacitación</a></li>
+<li><a href="/ExploreLearn/FindOutMore/Webinars/LiveWebinars.aspx?id=6310">Próximos seminaries en línea</a></li>
+<li><a href="/ExploreLearn/FindOutMore/Webinars/OnDemandWebinars.aspx">Seminarios en línea a petición</a></li>
+<li><a href="/ExploreLearn/TrainingPrograms/PartnerWorkshopList.aspx">Talleres</a></li>
+<li><a href="/ExploreLearn/FindOutMore/Podcasts/Podcasts.aspx">Podcasts</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a>Blogs</a></li>
+<li><a href="/Connect/BlogHubVision.aspx">Sensores, sistemas y software</a></li>
+<li><a href="/Connect/BloghubID.aspx">Basados en imágenes</a></li>
+<br /><li id="cmm_heading_main" class="cmm_heading"><a href="/symbologies/">Simbología en códigos<br />de barras</a></li>
+<li><a href="/symbologies/1-d-linear-barcodes/">Códigos de barras lineales 1-D</a></li>
+<li><a href="/symbologies/2-d-matrix-codes/">Códigos Matrix Code 2-D</a></li>
+<li><a href="/symbologies/postal-codes/">Códigos postales</a></li>
+<li><a href="/symbologies/stacked-linear-barcodes/">Códigos de barras lineales apilados</a></li>
+</ul>
+<ul>
+<li class="cmm_heading" id="cmm_heading_main"><a>Herramientas interactivas</a></li>
+<li><a href="/ExploreLearn/UsefulTools/Costadvisor/?id=3992">Asesor de ahorro de costos</a></li>
+<li><a href="/ExploreLearn/UsefulTools/LensAdvisor/?id=8341">Asesor de lentes</a></li>
+<li><a href="/ExploreLearn/UsefulTools/LightingAdvisor/?id=9283">Asesor de iluminación</a></li>
+<li><a href="/ProductsServices/Video.aspx?id=8373">Explorador de aplicaciones <br />de identificación</a></li>
+<li><a href="/cognexinfo/video.aspx?id=9470">Make It Right Game</a></li>
+<li><a href="/ProductsServices/IDProducts/Video.aspx?id=9471">ID IQ Challenge</a></li>
+</ul>
+</div>
+                <div id="ctl00_Megamenu1_ParentNav_ctl06_cbCTA">
+	<div style="text-align: center;"><a class="cmm_subfoot" href="/3D-displacement-sensor-laser-profiler.aspx"><img src="/uploadedImages/Home/Cognex_Mega_Menu/MenuBanner_3D_ES.jpg?n=2041" /></a></div>
+</div>
+                </div>
+		    </li>
+    
+			<li class="">
+                <span><a href="/corporate-overview.aspx?langtype=1034&locale=ar">Compañía</a></span>
+                <div class="cmm_submenu_6">
+                <div id="ctl00_Megamenu1_ParentNav_ctl07_cbPanel">
+	<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/corporate-overview.aspx">Descripción</a></li>
+<li><a href="/CognexInfo/Video.aspx?id=7889">Video de introducción de Cognex</a></li>
+<li><a href="/what-is-machine-vision.aspx">Acerca de la visión artificial</a></li>
+<li><a href="/CognexInfo/Video.aspx?id=7867">Video de simplificación de la visión</a></li>
+<li><a href="/company-facts.aspx">Datos claves</a></li>
+<li><a href="/company-history.aspx">Historia de la empresa</a></li>
+<br /><li id="cmm_heading_main"><a>Noticias</a></li>
+<li><a href="/CognexInfo/PressReleases/">Comunicados de prensa</a></li>
+<li><a href="/vision-product-news.aspx">Lanzamientos de nuevos productos</a></li>
+<li><a href="/customer-success-stories/newapps/">Historias sobre la nueva aplicación</a></li>
+<li><a href="/media-press-room.aspx">Recursos multimedia</a></li>
+</ul>
+<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="/careers.aspx">Carrera</a></li>
+<li><a href="/cognexinfo/careers/careers.aspx">Puestos disponibles</a></li>
+<li><a href="/cognexinfo/careers/resumesubmit.aspx">Envío de curriculum vitae</a></li>
+<br /><li id="cmm_heading_main"><a href="/philanthropy.aspx">Donaciones de Cognex</a></li>
+<li><a href="/giving-guidelines.aspx">Directrices de donaciones</a></li>
+<li><a href="/giving-history.aspx">Proyectos anteriores</a></li>
+<br /><li id="cmm_heading_main"><a href="/environmental-policies.aspx">Políticas ambientales</a></li>
+<li><a href="/environment-manufacturing.aspx">Cómo ayuda la visión de Cognex</a></li>
+</ul>
+<ul>
+<li id="cmm_heading_main" class="cmm_heading"><a href="http://cgnx.client.shareholder.com/" target="_blank">Información de los inversionistas</a></li>
+<br /><li id="cmm_heading_main"><a>Liderazgo</a></li>
+<li><a href="/senior-management.aspx">Alta gerencia</a></li>
+<li><a href="/board-of-directors.aspx">Junta directiva</a></li>
+<br /><li id="cmm_heading_main" class="cmm_heading"><a>Oficinas globales</a></li>
+<li><a href="/facilities-americas.aspx?terms=worldwide+facilities">América</a></li>
+<li><a href="/facilities-europe.aspx">Europa</a></li>
+<li><a href="/facilities-asia.aspx">Asia</a></li>
+<li><a href="/facilities-japan.aspx">Japón</a></li>
+</ul>
+</div>
+                <div id="ctl00_Megamenu1_ParentNav_ctl07_cbCTA">
+	<div style="text-align: center;"><a class="cmm_subfoot" href="/careers.aspx"><img src="/uploadedImages/Home/Cognex_Mega_Menu/Cognex_MenuBanner_Jobs_ES.jpg" /></a></div>
+</div>
+                </div>
+		    </li>
+    
+			</ul>
+		</div>
+    
+
+                    <div id="ctl00_SearchBoxPanel" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_btnSearch&#39;)">
+	
+                        <div class="topnav_search">
+                            <input name="ctl00$tbSearch" type="text" value="Search Cognex" id="ctl00_tbSearch" class="textfield clear_text_onfocus" />
+                            <input type="button" name="ctl00$btnSearch" value="" onclick="javascript:__doPostBack(&#39;ctl00$btnSearch&#39;,&#39;&#39;)" id="ctl00_btnSearch" class="btnSearchImg" />
+                        </div>
+                    
+</div>
+            </div>
+        </div>
+        <div id="ctl00_divSection" class="sectionhead_container sectionhead_tall" style="background-image:url(/assets/0/15/2597/8c75ec90-3cfc-465f-9734-c6f9609db936.jpg)"> 
+            <div class="sectionhead"><img src="/assets/0/15/2597/2632/ecee044e-8c5b-4b08-995c-5ca012b94c5a.png" id="ctl00_imgSectionText" class="headline" /></div>
+        </div>
+        <div class="content_container">
+            <div class="content_frame">
+                <div class="content_background">
+                    
+
+<div id="loginstatus">
+    <div id="ctl00_ucLoginStatusBar_pnlSignOutMode">
+	
+        <a id="ctl00_ucLoginStatusBar_hlSignIn" href="/support/secure/login.aspx">Iniciar sesión</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="ctl00_ucLoginStatusBar_hlRegister" href="/support/secure/register.aspx">Registrarse ahora</a>
+    
+</div>
+     
+    
+    
+    
+</div>
+                    
+                    <div class="clear"></div>
+                    <div class="content">
+   	                    <div class="site_container" >
+                        <div id="ctl00_LeftMenuPanePanel">
+	
+                        <div id="ctl00_MainContent_MainContent_LeftMenuPanel">
+                            <div class="subnav_container">
+		                        
+
+		                    </div>
+		                </div>
+                        
+</div>
+                        
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    <span id="ctl00_LanguageAPI1"></span>
+    
+<div class="footer_container">
+    <div class="footer">
+        <div id="ctl00_SiteFooter_cbFooterContent">
+	<div class="footer_col_01"><ul>
+<li class="section_title"><a href="/products.aspx">Productos para satisfacer todas sus necesidades</a></li>
+<li><a href="/barcode-readers-overview.aspx">Lectores basados en imágenes</a></li>
+<li><a href="/industrial-sensor-checker.aspx">Sensores de visión</a></li>
+<li><a href="/fixed-mount-barcode-readers.aspx">Lectores fijos</a></li>
+<li><a href="/barcode-scanner-readers.aspx">Lectores portátiles</a></li>
+<li><a href="/DPM-mobile-computer.aspx">Computadoras portátiles</a></li>
+<li><a href="/barcode-verifiers.aspx">Verificadores</a></li>
+<li><a href="/data-verification-systems-in-sight.aspx">Sistemas de visión</a></li>
+<li><a href="/sisd/">Visión superficial</a></li>
+</ul>
+
+&#160;</div>
+<div class="footer_col_02"><ul>
+<li class="section_title"><a href="/resources.aspx">Más información</a></li>
+<li><a href="http://help.cognex.com" target="_blank">Base de conocimientos</a></li>
+<li><a href="/training.aspx">Capacitación</a></li>
+<li><a href="/customer-success-stories/automotive/">Historias de clientes</a></li>
+<li><a href="/ExploreLearn/FindOutMore/WhitePapersArticles/WhitePapersAndArticles.aspx">Documentos oficiales</a></li>
+<li><a href="/ExploreLearn/FindOutMore/Webinars/OnDemandWebinars.aspx">Seminarios en línea</a></li>
+<li><a href="/ExploreLearn/FindOutMore/Webinars/LiveWebinars.aspx?id=6310">Próximos seminarios en línea</a></li>
+<li><a href="/ExploreLearn/UsefulTools/Costadvisor/default.aspx?id=3992">Herramientas útiles</a></li>
+<li><a href="/ProductsServices/IDProducts/Video.aspx?id=9471">Juegos interactivos</a></li>
+</ul>
+
+&#160;</div>
+<div class="footer_col_03"><ul>
+<li class="section_title"><a href="/corporate-overview.aspx">Acerca de nosotros</a></li>
+<li><a href="http://cgnx.client.shareholder.com/" target="_blank">Relaciones con inversionistas</a></li>
+<li><a href="/careers.aspx">Bolsa de trabajo</a></li>
+<li><a href="/senior-management.aspx">Junta directiva</a></li>
+<li><a href="/CognexInfo/PressReleases/default.aspx?id=102">Noticias</a></li>
+<li><a href="/environmental-policies.aspx">Medio ambiente</a></li>
+<li><a href="/philanthropy.aspx">Donaciones</a></li>
+</ul>
+
+&#160;</div>
+<div class="footer_col_04"><ul>
+<li class="section_title"><a href="/Home/ContactUs.aspx">Contáctenos</a></li>
+<li><a href="/contact-demo.aspx?cm_campid=43BBC0AC-1C17-E311-A060-5EF3FCDAF1B7">Solicite una demostración</a></li>
+<li><a href="/contact-sales.aspx?cm_campid=BEC1CBD5-1C17-E311-A060-5EF3FCDAF1B7">Contacto de ventas</a></li>
+<li><a href="/contact-pricing.aspx?cm_campid=6FEAE2C5-1C17-E311-A060-5EF3FCDAF1B7">Cotización de productos</a></li>
+<li><a href="/asistencia/">Asistencia técnica</a></li>
+</ul>
+<ul>
+<li class="section_title"><a href="/careers.aspx">Trabaje para Cognex</a></li>
+<li>¡Estamos creciendo y buscamos los mejores talentos de todo el mundo!</li>
+</ul>
+
+&#160;</div>
+<div class="footer_col_05"><ul class="social_media">
+<li class="section_title"><a>Conéctese con nosotros</a></li>
+<li class="social_vision_blog"><a href="/Connect/BlogHubVision.aspx">Blog de visión</a></li>
+<li class="social_facebook"><a href="https://www.facebook.com/cognexcorp?ref=ts&amp;sk=wall" target="_blank">Facebook</a></li>
+<li class="social_id_blog"><a href="/Connect/BlogHubID.aspx">Blog de identificación</a></li>
+<li class="social_linkedin"><a href="http://www.linkedin.com/company/7453?goback=.fcs_GLHD_cognex_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&amp;trk=ncsrch_hits" target="_blank">LinkedIn</a></li>
+<li class="social_cognex_tv"><a href="http://www.youtube.com/CognexTV" target="_blank">Cognex TV</a></li>
+<li class="social_twitter"><a href="https://twitter.com/Cognex_Corp" target="_blank">Twitter</a></li>
+<li class="social_partner_tv"><a href="http://www.youtube.com/CognexPartnerTV" target="_blank">Partner TV</a></li>
+<li class="social_google"><a href="https://plus.google.com/110947668324922031522/auto" target="_blank">Google+</a></li>
+</ul>
+
+&#160;</div>
+</div>
+          <div class="clear"></div>
+          <div class="footer_links">
+            <ul>
+              <li><a href="/support">Descargas técnicas</a></li>
+              <li><a href="https://partner.cognex.com/" target="_blank">Inicio de sesión para socios</a></li>
+              <li><a href="http://cgnx.client.shareholder.com/" target="_blank">Inversionista</a></li>
+              <li><a href="/privacy.aspx">Privacidad</a></li>
+              <li><a href="/map.aspx">Cambiar país</a></li>
+              <li class="copyright">&copy; 2015 Cognex Corporation</li>
+            </ul>
+          </div>
+        
+        
+    </div>
+</div>
+
+<script src="/WebResource.axd?d=9uKyalPjqwE8gjsTDewNEt1lji1OmQWzVfDDxLYOrZvFk2XgvOtwxuhPwRV583PET1rQN-TecGMhIkR1C5C3kTPFYSY1&amp;t=635217208340000000" type="text/javascript"></script>
+</form>
+
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1053462133;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1053462133/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+
+
+
+
+<script type="text/javascript">
+    var path = (("https:" == document.location.protocol) ? "https://databroker.coremotives.com/databroker.js?version=2" : "http://cdn.coremotivesmarketing.com/databroker.js");
+    document.write(unescape("%3Cscript src='" + path + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">  try {
+    var coreMotives = new DataBroker();
+    coreMotives.customerId = "a351b2d3-666e-4c4b-92dd-e6a408cef38b";
+    coreMotives.instanceId = 911;
+    coreMotives.trackPageView();
+  } catch (e) { }
+</script>
+
+
+
+</body>
+</html>

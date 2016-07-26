@@ -1,0 +1,65 @@
+Auxiliares,Constantes,Dimensiones,Mediciones,Resultado,Nominal,Total Superior,Pre Total Superior,Pre Total Inferior,Total Inferior,Descripción
+(T4-T7)/K1,177,295.0979,-(T9+T10)+D1,MED,295,0.2,0.2,0,0,Ø sup. 295 D2
+T11-(T1-T2)/2-(A1/2*K2),66.5,0,0,MED,295,0.2,0.2,0,0,Ø inf. 295 D1
+T1,29.5,295.101,A2,TIR,0,0.1,0.1,0,0,RunOut de pista de frenado
+T1,30,108.0344,A3,RG2,0,0.02,0.02,0,0,Redondez sup
+T6,0,5.052,A4,RG2,0,0.02,0.02,0,0,Redondez inf
+T7,0,5.052,A4,RGO,0,0.04,0.04,0,0,Redondez Circ. inf D1
+T3+0*(A1*K2+T4),,0,((-(T9+T10)+D1)-(-(T11+T12)+D3)),MED,0,0.04,0.04,0,0,Conicidad
+T1,,0,-(T1+T2)+D4,MED,108,0.056,0.056,0.01,0.01,Ø 108 piloto
+T1,,0,A5,CIR,0,0.08,0.08,0,0,PLANICIDADE CIRCUNFERENCIAL INT.
+,,0,A6,CIR,0,0.08,0.08,0,0,Planicidad Circunferencial Externa
+,,0,ABS((T4-T6)-0*A1*K3)+D2,MAX,0,0.15,0.15,0,0,Planicidad Radial Apoyo
+,,0,((T3-T5)/K4+A1)*K4,RGO,0,0.2,0.2,0,0,Paralelismo B
+,,65.027,A7,TIR,0,0.1,0.1,0,0,Batimento da Brida
+,,0.005,((T3+T5+D5)+(T4+T6+D6))/2,MXM,5,0.3,0.3,-0.2,-0.2,Espersor
+,,6.2548,A8,HN2,0,0.02,0.02,0,0,HN2
+,,6.2529,A10,HN3,0,0.01,0.01,0,0,HN3
+,,21.9003,A9,HN4,0,0.005,0.005,0,0,HN4
+,,21.9051,A8,HN5,0,0.005,0.005,0,0,HN5
+,,21.9079,A10,HN6,0,0.005,0.005,0,0,HN6
+,,30.3014,A9,HN1,0,0.002,0.002,0,0,HN10
+,,0,A8,HN1,0,0.002,0.002,0,0,HN11
+,,0,A10,HN1,0,0.002,0.002,0,0,HN12
+,,0,A9,HN1,0,0.002,0.002,0,0,HN13
+,,0,A8,HN1,0,0.002,0.002,0,0,HN14
+,,,A7,HN1,0,0.002,0.002,0,0,HN15
+,,,(T3+T5+D5),MED,5,0.3,0.3,-0.2,-0.2,Espedsor exterior
+,,,(T4+T6+D6),MED,5,0.3,0.3,-0.2,-0.2,Espesor interior
+,,,T1+1,MED,0,0.01,0,0,0,T1
+,,,T2,MED,0,0.01,0,0,0,T2
+,,,T3,MED,0,0.01,0,0,0,T3
+,,,T4,MED,0,0.01,0,0,0,T4
+,,,T5,MED,0,0.01,0,0,0,T5
+,,,T6,MED,0,0.01,0,0,0,T6
+,,,T7,MED,0,0.01,0,0,0,T7
+,,,T8,MED,0,0.01,0,0,0,T8
+,,,T9,MED,0,0.01,0,0,0,T9
+,,,T10,MED,0,0.01,0,0,0,T10
+,,,T11,MED,0,0.01,0,0,0,T11
+,,,T12,MED,0,0.01,0,0,0,T12
+,,,T13,MED,0,0.01,0,0,0,T13
+,,,T14,MED,0,0.01,0,0,0,T14
+,,,T15,MED,0,0.01,0,0,0,T15
+,,,T16,MED,0,0.01,0,0,0,T16
+,,,ABS((T4-T6)-0*A1*K3)+D2,Z2,0,0.2,0.2,0,0,Ø sup. 295 D2
+,,,((T3-T5)/K4+A1)*K4,Z1,0,0.2,0.2,0,0,Ø inf. 295 D1
+,,,((T3+T5+D5)+(T4+T6+D6))/2,L1,0,0.1,0.1,0,0,RunOut de pista de frenado
+,,,(T3+T5+D5),L2,0,0.02,0.02,0,0,Redondez sup
+,,,(T4+T6+D6),Ec,0,0.02,0.02,0,0,Redondez inf
+,,,((-(T9+T10)+D1)-(-(T11+T12)+D3)),D0,0,0.04,0.04,0,0,Redondez Circ. inf D1
+,,,(T3+T5+D5),Fr,0,0.04,0.04,0,0,Conicidad
+,,,(T4+T6+D6),Z2,0,0.056,0.056,0.01,0.01,Ø 108 piloto
+,,,((-(T9+T10)+D1)-(-(T11+T12)+D3)),Z1,0,0.08,0.08,0,0,PLANICIDADE CIRCUNFERENCIAL INT.
+,,,ABS((T4-T6)-0*A1*K3)+D2,L1,0,0.08,0.08,0,0,Planicidad Circunferencial Externa
+,,,((T3-T5)/K4+A1)*K4,L2,0,0.15,0.15,0,0,Planicidad Radial Apoyo
+,,,ABS((T4-T6)-0*A1*K3)+D2,Ec,0,0.2,0.2,0,0,Paralelismo B
+,,,((T3-T5)/K4+A1)*K4,D0,0,0.1,0.1,0,0,Batimento da Brida
+,,,((T3+T5+D5)+(T4+T6+D6))/2,Fr,0,0.3,0.3,-0.2,-0.2,Espersor
+,,,(T3+T5+D5),Z2,0,0.02,0.02,0,0,HN2
+,,,(T4+T6+D6),Z1,0,0.01,0.01,0,0,HN3
+,,,((-(T9+T10)+D1)-(-(T11+T12)+D3)),L1,0,0.005,0.005,0,0,HN4
+,,,(T3+T5+D5),L2,0,0.005,0.005,0,0,HN5
+,,,(T4+T6+D6),Ec,0,0.005,0.005,0,0,HN6
+,,,((-(T9+T10)+D1)-(-(T11+T12)+D3)),D0,0,0.2,0.2,0,0,Ø sup. 295 D2
+,,,ABS((T4-T6)-0*A1*K3)+D2,Fr,0,0.2,0.2,0,0,Ø inf. 295 D1
